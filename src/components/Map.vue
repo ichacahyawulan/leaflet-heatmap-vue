@@ -74,7 +74,7 @@ export default {
       }).addTo(this.map)
       // addressPoints = addressPoints.map(function (p) { return [p[0], p[1]]; });
 
-      L.heatLayer(this.data, {radius: 25}).addTo(this.map);
+      L.heatLayer(this.data, {radius: 100}).addTo(this.map);
     },
   },
   mounted() {
@@ -88,7 +88,7 @@ export default {
   display: flex;
 }
 #mapContainer {
-  width: 80vw;
+  width: 100vw;
   height: 100vh;
 }
 </style>
