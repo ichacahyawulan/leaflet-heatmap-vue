@@ -1,4 +1,5 @@
 # leaflet-heatmap-vue
+Menampilkan heat map untuk data gempa bumi di Indonesia dari tahun 2014 - 2019 menggunakan leaflet dan Vue. Data gempa bumi diambil dari [source](https://github.com/data-folks/indo-earthquake).
 
 ## Project setup
 ```
